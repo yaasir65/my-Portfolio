@@ -35,7 +35,7 @@ import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
       {/* Links Section */}
       <div className="flex justify-center space-x-6 mb-4">
         
-        <a href="#" className="hover:text-orange-500 transition duration-300">
+        <a href="about" className="hover:text-orange-500 transition duration-300">
          Home
         </a>
         <a href="#" className="hover:text-orange-500 transition duration-300">

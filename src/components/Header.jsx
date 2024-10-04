@@ -6,7 +6,7 @@ import yaasir from "../images/yaasir.jpg";
 import maxamed from "../images/maxamed.jpg";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import Footer from './footer';
+ import Footer from "../components/Footer"
 import faarax from "../images/faarax.jpg"
  import jilaato from "../images/jilaato.jpg"
  import coofe from "../images/coofe.jpg"
@@ -175,10 +175,15 @@ function Header() {
               Junior Fullstack Web Developer with a passion for building responsive, user-friendly web applications using modern technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB. Experienced in both front-end and back-end development, with a goal to continuously learn and innovate to create digital solutions that help businesses grow. Proven ability to work independently or in a team to deliver high-quality projects on time.
             </p>
             <button 
-  className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded mt-6" 
-  onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
->
-  Contact me
+  className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded mt-6">
+  <a 
+          href="/maxamed ahmed Cv[1].docx"   //the cv
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded mt-6"
+        >
+          download CV
+        </a>
 </button>
 
           </div>
