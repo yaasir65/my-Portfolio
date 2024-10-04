@@ -60,4 +60,4 @@ import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
   );
 };
 
-export default  Footer;
+export default Footer;
