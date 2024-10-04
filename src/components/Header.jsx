@@ -74,6 +74,7 @@ function Header() {
 
   return (
     <div>
+    <div>
       {/* Home Section */}
      
       <section id='#'>
@@ -315,6 +316,7 @@ function Header() {
 
       </section>
       <Footer/>
+    </div>
     </div>
   );
 }
