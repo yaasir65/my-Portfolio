@@ -10,6 +10,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import faarax from "../images/faarax.jpg"
  import jilaato from "../images/jilaato.jpg"
  import coofe from "../images/coofe.jpg"
+import Contact from '../pages/Contact';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -264,57 +265,11 @@ function Header() {
 
 
       {/* Contact Section */}
-      <section id="contact" className="min-h-screen   flex flex-col justify-center  items-center bg-black text-white p-8">
-      <div className="min-h-screen flex items-center justify-center bg-black">
-      <div className="w-full sm:mt-[80px]">
-        <h1 className="text-4xl font-bold text-center text-white mb-8">
-          Contact <span className="text-orange-500">Me</span>
-        </h1>
-        <form className="bg-transparent sm:w-[700px] p-8 border border-orange-500 rounded-lg">
-          <div className="mb-4">
-            <input
-              type="text"
-              placeholder="Name"
-              className="w-full p-3 border border-orange-500 bg-transparent text-white rounded-lg focus:outline-none"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full p-3 border border-orange-500 bg-transparent text-white rounded-lg focus:outline-none"
-            />
-          </div>
-          <div className="mb-4 relative">
-            <input
-              type="text"
-              placeholder="Phone Number"
-              className="w-full p-3 border border-orange-500 bg-transparent text-white rounded-lg focus:outline-none"
-            />
-            <span className="absolute top-3 right-4 text-white cursor-pointer">
-              🗑
-            </span>
-          </div>
-        
-          <div className="mb-4">
-            <textarea
-              placeholder="Your Message"
-              className="w-full p-3 border border-orange-500 bg-transparent text-white rounded-lg focus:outline-none h-32"
-            />
-          </div>
-          <div className="text-center">
-            <button
-              type="submit"
-              className="px-6 py-3 bg-orange-500 text-black font-bold rounded-full hover:bg-lime-400 transition"
-            >
-              Send Message
-            </button>
-          </div>
-        </form>
+      <div>
+        <Contact/>
       </div>
- </div>
-
-      </section>
+     
+      
       <Footer/>
     </div>
     </div>
